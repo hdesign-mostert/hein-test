@@ -1,0 +1,56 @@
+// Variables
+@import "variables/functions";
+@import "variables/variables-colors";
+@import "variables/variables";
+
+// Font
+@import "fonts/fontawesome/font-awesome";
+@import "fonts/material-icons";
+@import "fonts/themify-icons";
+
+// Bootstrap
+@import "bootstrap/bootstrap";
+@import "variables/bootstrap-overrides";
+
+// Elements
+@import "elements/cards";
+//@import "elements/fullcalendar";
+@import "elements/buttons";
+//@import "elements/articles";
+//@import "elements/accordians";
+//@import "elements/five-colums";
+//@import "elements/widgets";
+//@import "elements/colors";
+//@import "elements/images";
+//@import "elements/badges";
+//@import "elements/breadcrumbs";
+//@import "elements/datepicker";
+@import "elements/feature-box";
+//@import "elements/forms";
+//@import "elements/mixitup";
+//@import "elements/owl.carousel";
+@import "elements/sections";
+//@import "elements/carousels";
+//@import "elements/split-navbar";
+//@import "elements/swipebox";
+//@import "elements/tables";
+@import "elements/typography";
+//@import "elements/rating";
+//@import "elements/maps";
+//@import "elements/progress";
+//@import "elements/pricing";
+//@import "elements/timeline";
+//@import "elements/morph-search";
+// Last to overwrite
+@import "elements/zdepth";
+
+// Pages
+//@import "pages/home";
+
+// Themes & Colors
+@import "variables/theme";
+@import "variables/colors";
+
+// Utilities
+@import "utilities/utilities-spacing";
+@import "utilities/utilities-helpers";

@@ -1,0 +1,50 @@
+.feature-box {
+  	position: relative;
+  	padding: 0 0 0 80px;
+
+  	h3 {
+	  	margin-top: 10px;
+  	}
+
+  	.fb-icon {
+  		display: block;
+		position: absolute;
+		width: 80px;
+		height: auto;
+		top: 10px;
+		left: 0;
+		i {
+			font-style: normal;
+			font-size: 40px;
+			text-align: center;
+			line-height: 1 !important;
+			display: block;
+			@include transition(color ease 0.4s);
+			color: $brand-primary;
+		}
+	}
+
+	&.fb-center {
+	  	padding: 0;
+	  	text-align: center;
+	  	.fb-icon {
+		  	position: relative;
+		  	width: 80px;
+		  	height: auto;
+		  	margin: 0 auto 20px;
+		  	i {
+			  	font-size: 60px;
+		  	}
+	  	}
+	}
+
+	&.fb-small {
+		.fb-icon {
+		  	width: 30px;
+		  	margin: 0 auto 20px;
+		  	i {
+			  	font-size: 30px;
+		  	}
+	  	}
+	}
+}

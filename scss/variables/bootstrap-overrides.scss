@@ -1,0 +1,111 @@
+// Body ====================================================================
+* {
+  outline: none !important;
+}
+
+body {
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .1px;
+  text-rendering: optimizeLegibility;
+}
+
+
+// Fonts ===================================================================
+.font-alt {
+	font-family: $headings-font-family;
+}
+
+// Images ==================================================================
+
+// Anchor & Buttons ========================================================
+input,
+button {
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .1px;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  @include transition(all 0.2s);
+}
+
+// Rows ====================================================================
+.row.flush > [class*="col-"],
+.row-fluid.flush > [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+.row-table {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    > [class*="col-"] {
+	    display: table-cell;
+	    float: none;
+	    table-layout: fixed;
+	    vertical-align: middle;
+	}
+}
+
+// Mixins ==================================================================
+@mixin border-radius($radius) {
+   border-radius: $radius;
+}
+
+@mixin border-radius-custom($topleft: 3px, $topright: 3px, $bottomright: 3px, $bottomleft: 3px) {
+   border-radius: $topleft $topright $bottomright $bottomleft;
+}
+
+// Typography ==============================================================
+
+// Tables ==================================================================
+
+// Forms ===================================================================
+
+// Navs ====================================================================
+
+// Navbar Brand ============================================================
+.navbar-brand {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+// Navbar Toggle ===========================================================
+
+// Indicators ==============================================================
+
+// badges and labels =======================================================
+
+// breadcrums ==============================================================
+
+// Progress bars ===========================================================
+
+// Modals ==================================================================
+
+// List group ==============================================================
+
+// Tabs ====================================================================
+
+// Containers ==============================================================
+
+// Dropdown Menu ===========================================================
+
+// Wells ===================================================================
+
+// Queries =================================================================
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+}
